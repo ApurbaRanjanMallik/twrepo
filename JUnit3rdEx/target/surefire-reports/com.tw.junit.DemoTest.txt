@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: com.tw.junit.DemoTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.02 sec <<< FAILURE!
+com.tw.junit.DemoTest.test01()  Time elapsed: 0.019 sec  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Unexpected exception type thrown, expected: <java.lang.ArithmeticException> but was: <java.lang.NullPointerException>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:67)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:35)
+	at org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:3083)
+	at com.tw.junit.DemoTest.test01(DemoTest.java:19)
+Caused by: java.lang.NullPointerException: Cannot invoke "com.tw.junit.Demo.convertToDecimal(int, int)" because "com.tw.junit.DemoTest.demo" is null
+	at com.tw.junit.DemoTest.lambda$test01$0(DemoTest.java:19)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:53)
+	... 17 more
+
+com.tw.junit.DemoTest.test02()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "com.tw.junit.Demo.convertToDecimal(int, int)" because "com.tw.junit.DemoTest.demo" is null
+	at com.tw.junit.DemoTest.test02(DemoTest.java:23)
+

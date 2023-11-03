@@ -1,0 +1,17 @@
+{"properties": [
+  {
+    "name": "configuration.service.minimum",
+    "type": "java.lang.String",
+    "description": "A description for 'configuration.service.minimum'"
+  },
+  {
+    "name": "configuration.service.minimum",
+    "type": "java.lang.String",
+    "description": "A description for 'configuration.service.minimum'"
+  },
+  {
+    "name": "configuration.service.maximum",
+    "type": "java.lang.String",
+    "description": "A description for 'configuration.service.maximum'"
+  }
+]}
